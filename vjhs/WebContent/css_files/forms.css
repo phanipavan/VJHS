@@ -1,0 +1,148 @@
+@CHARSET "ISO-8859-1";
+
+.formleft {
+	width: 320px;
+	padding: 2px;
+	vertical-align: top;
+	font-weight: normal;
+	padding-left: 5px;
+	text-align: right;
+}
+
+.formleft1 {
+	width: 40%;
+	padding: 2px;
+	vertical-align: top;
+	font-weight: normal;
+	padding-left: 5px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.confirm_left {
+	width: 320px;
+	padding: 2px;
+	vertical-align: top;
+	font-weight: normal;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.formright1 {
+	width: 60%;
+	padding: 2px 2px 2px 5px;
+	font-weight: normal;
+	padding: 2px 2px 2px 5px;
+}
+
+.formright1>label>input[type="file"],.formright1>label>input[type="text"],.formright1>label>textarea, .formright1>label>select{
+	width:45%;
+	border:1px solid #808080;
+} 
+
+.formright {
+	padding: 2px 2px 2px 5px;
+	font-weight: normal;
+}
+
+em, label.error {
+	color: red;
+	float: none;
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+/* fieldset {
+	padding: 0px 0px 0px 50px;
+	border: 3px dotted rgb(0, 75, 141);
+	border-radius: 10px;
+}
+
+legend {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+} */
+.alCenter {
+	text-align: center;
+}
+
+.alRight {
+	text-align: right;
+}
+
+.cookieSet {
+	width: 1170px;
+	padding: 5px 10px;
+	font-weight: bold;
+	text-align: right;
+}
+
+em {
+	color: red;
+}
+
+#hour1, #min1, #hour2, #min2 {
+	width: 50px;
+}
+
+input[type=text], input[type=date], input[type=file], input[type=tel],
+	input[type=email], input[type=datetime], select, input[type=number],
+	input[type=password] {
+	width: 250px;
+	height: 25px;
+}
+
+.spacRad {
+	width: 125px;
+	font-weight: normal;
+}
+
+.minWid input[type=text], .minWid input[type=date] {
+	width: 130px;
+	font-weight: normal;
+	height: 25px;
+}
+
+textarea {
+	width: 251px;
+	height: 40px;
+}
+
+b {
+	vertical-align: top;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+	border: 0px;
+	background: rgb(0, 75, 141);
+	color: white;
+	border-radius: 5px;
+	padding: 0 25px;
+	height: 25px;
+}
+
+.reset_submit {
+	padding: 10px 10px 10px 340px;;
+}
+
+.noHide {
+	display: none;
+	width: 100px;
+}
+
+.viewMiddleClTT {
+	margin: 10px 0;
+	background-color: #ADD8E6;
+	border-radius: 10px;
+	display: inline-table;
+}
+
+.viewFull {
+	padding: 10px 30px;
+	margin: 10px;
+	width: 1150px;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+}

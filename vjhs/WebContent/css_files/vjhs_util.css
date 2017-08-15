@@ -1,0 +1,706 @@
+@CHARSET "ISO-8859-1";
+
+.viewMiddleClTT {
+	margin: 10px 0;
+	background-color: #ADD8E6;
+	border-radius: 10px;
+	display: inline-table;
+	width: 100%;
+}
+
+.viewCRight {
+	padding: 10px 30px;
+	margin: 10px;
+	width: 1150px;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.showClassData {
+	display: none;
+}
+
+.viewCttTable th, .viewCttTable td {
+	padding: 2px 5px;
+	width: 120px;
+}
+
+.classTieT .showClassData .viewCttTable input[type=text] {
+	width: 90px;
+	font: 12px;
+	border: 1px solid #fff;
+}
+
+/* +++++++++++++ View_teacher_attendance +++++++++++++++ */
+.viewFull {
+	padding: 10px 30px;
+	margin: 10px;
+	width: 1150px;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+/* input[type=submit], input[type=reset], input[type=button] {
+	border: 0px;
+	background: rgb(0, 75, 141);
+	color: white;
+	border-radius: 5px;
+	min-width: 100px;
+	height: 25px;
+	font-weight: bold;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+} */
+
+.classNamePlace {
+	font-weight: bold;
+}
+
+#updateCT {
+	display: none;
+}
+
+.forPadding {
+	width: 100%;
+	padding: 3px;
+	display: inline-table;
+}
+
+.mainHeader {
+	font-size: 20px;
+	text-align: center;
+}
+
+.viewPLeft {
+	width: 40%;
+	float: left;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.viewPRight {
+	width: 60%;
+	float: left;
+	vertical-align: middle;
+}
+
+.viewMiddleClTT select, .viewMiddleClTT input[type=date],
+	.viewMiddleClTT input[type=text], .viewMiddleClTT input[type=email],
+	.viewMiddleClTT [type=password] {
+	height: 22px;
+	width: 225px;
+	font: 12px;
+	border: 1px solid #004B8D;
+	font-weight: normal
+}
+
+.viewMiddleClTT>.viewFull .attenInput {
+	width: 50px;
+	padding: 0;
+	margin: 0;
+	border: #fff;
+	text-align: right;
+}
+
+.viewMiddleClTT .forDivideHalf {
+	height: 22px;
+	width: 106px;
+	border: 1px solid #004B8D;
+	font-weight: normal
+}
+
+.viewTeacherAtten, .viewTeacherAttenStatus {
+	border: 2px solid #004B8D;
+	width: 50%;
+	margin: auto;
+}
+
+.viewTeacherAtten td, .viewTeacherAtten th, .viewTeacherAttenStatus th,
+	.viewTeacherAttenStatus td {
+	width: 50%;
+	padding: 3px 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.viewTeacherAtten th, .viewTeacherAttenStatus th {
+	font-size: 13px;
+	background-color: #004B8D;
+	color: #fff;
+}
+
+.forButtons, .orLabel {
+	text-align: center;
+}
+
+.teacherAttenDiv {
+	display: none;
+}
+
+.empNoAlign {
+	width: 35%;
+	float: left;
+}
+
+.orAlign {
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+
+.empNameAlign {
+	width: 35%;
+	float: left;
+}
+
+.rightSpace, .leftSpace {
+	width: 10%;
+	float: left;
+}
+
+.empNameRes {
+	float: left;
+	width: 55%;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.empNumberRes {
+	float: left;
+	width: 45%;
+}
+
+.forTeacherDet {
+	margin: auto;
+	display: inline-table;
+}
+
+.attSummHead {
+	text-align: center;
+	font-size: 16px;
+}
+
+.toGetDataForMonth {
+	display: none;
+}
+/* ++++++++++++++ View_school_timings+++++++++++++++ */
+.timings_table {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.timings_table tr {
+	height: 28px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+
+.timings_table tr:nth-child(odd) {
+	background-color: lightBlue;
+}
+
+.timings_table tr:nth-child(even) {
+	background-color: lightGrey;
+}
+
+.timings_table td, .timings_table th {
+	text-align: center;
+}
+
+.timings_table th {
+	color: #fff;
+	background-color: rgb(0, 75, 141);
+}
+
+.bell_details {
+	float: left;
+	padding: 1%;
+	width: 38%;
+}
+
+.period_details {
+	float: left;
+	padding: 1%;
+	width: 58%;
+}
+
+/* ++++++++++++++++++View_classtt++++++++++++++++ */
+.toRefView .viewCLeft {
+	padding: 10px 30px;
+	margin: 10px;
+	width: 180px;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 1%;
+	width: 16%;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+	min-height: 346px;
+}
+
+.toRefView .viewCRight {
+	padding: 10px 30px;
+	margin: 10px 10px 10px 0;
+	width: 949px;
+	float: left;
+	border-radius: 10px;
+	background-color: #fff;
+	min-height: 346px;
+}
+
+.toRefView .viewCttTable input[type=text] {
+	width: 90px;
+	font: 12px;
+	border: 1px solid #fff;
+}
+/* +++++++++++++++ view_all_teache_atten+++++++++++++++++ */
+.teacherAttendanceReport, .overAllDayReport {
+	border: 2px solid #004B8D;
+	width: 100%;
+}
+
+.teacherAttendanceReport td, .teacherAttendanceReport th,
+	.overAllDayReport td, .overAllDayReport th {
+	min-width: 12%;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.teacherAttendanceReport th, .overAllDayReport th {
+	font-size: 13px;
+	background-color: #004B8D;
+	color: #fff;
+}
+
+/* ++++++++++++++++Teacher_Time++++++++++++ */
+.exam_table {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.exam_table tr {
+	height: 28px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+
+.exam_table tr:nth-child(odd) {
+	background-color: lightBlue;
+}
+
+.exam_table tr:nth-child(even) {
+	background-color: lightGrey;
+}
+
+.exam_table td, .exam_table th {
+	text-align: center;
+}
+
+.exam_table th {
+	color: #fff;
+	background-color: rgb(0, 75, 141);
+}
+
+.exam_details {
+	float: left;
+	padding: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 100%;
+}
+
+/* +++++++++++++++ Teacher_Attendance +++++++++++++ */
+.teacherAttendance {
+	border: 2px solid #004B8D;
+	width: 100%;
+}
+
+.teacherAttendance th {
+	font-size: 13px;
+	background-color: #004B8D;
+	color: #fff;
+}
+
+.teacherAttendance .daysClass, .teacherAttendance .statusAtten {
+	min-width: 20%;
+}
+
+.teacherAttendance td, .teacherAttendance th {
+	min-width: 12%;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.teacherAttenDiv {
+	display: none;
+}
+
+.empNoAlign {
+	width: 35%;
+	float: left;
+}
+
+.orAlign {
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+
+.empNameAlign {
+	width: 35%;
+	float: left;
+}
+
+.teacherAttendance input {
+	height: 20px;
+	border: 1px solid #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/* +++++++++++++++++Subjects+++++++++++++++++++ */
+.classNamePlace {
+	font-weight: bold;
+}
+
+.vewFulLeft {
+	width: 50%;
+	float: left;
+}
+
+.viewFulRight {
+	width: 47%;
+	float: left;
+	padding-left: 3%;
+	border-left: 2px solid rgb(0, 75, 141);
+}
+
+.addSubjectPane, .viewFulRight, .updateSubjectPane {
+	display: none;
+}
+
+/* +++++++++++++++++students_marks+++++++++++++++ */
+.progressReportTab select {
+	width: 150px;
+	font: 12px;
+	border: 1px solid #004B8D;
+	color: #000;
+}
+
+.progressReportTab, .totalMarksTab {
+	border: 2px solid #004B8D;
+	margin: auto;
+}
+
+.progressReportTab tr {
+	height: 28px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+
+.progressReportTab tr:nth-child(odd) {
+	background-color: #ADD8E6;
+}
+
+.progressReportTab tr:nth-child(even) {
+	background-color: #D3D3D3;
+}
+
+.progressReportTab th {
+	padding: 0 30px;
+	color: #fff;
+	background-color: #004B8D;
+}
+
+.progressReportTab td {
+	padding: 0 20px;
+}
+
+.progressReportTab .left, .totalMarksTab .left {
+	padding: 0 20px;
+	text-align: right
+}
+
+.progressReportTab .middle, .totalMarksTab .middle {
+	text-align: left;
+	padding: 0 20px;
+}
+
+.progressReportTab th, .progressReportTab td, .totalMarksTab td,
+	.totalMarksTab th {
+	width: 260px;
+}
+
+.heddingLabel {
+	font-size: 18px;
+	margin-left: 180px;
+}
+
+.mainHeader {
+	font-size: 20px;
+	text-align: center;
+}
+
+.mainHeader label {
+	text-decoration: underline;
+}
+
+.headerClass, .admissionNo, .headerName {
+	font-size: 16px;
+	padding: 2px 40px;
+	float: left;
+}
+
+.headerName {
+	width: 50%;
+}
+
+.admissionNo {
+	width: 30%;
+}
+
+.headerClass {
+	width: 20%;
+}
+
+.studentMarks td, .studentMarks th {
+	font-size: 12px;
+	width: 6%;
+	padding: 3px 5px;
+	text-align: center;
+}
+
+.studentMarks {
+	border: 2px solid #004B8D;
+	table-layout: fixed;
+}
+
+.studentMarks th {
+	font-size: 13px;
+	background-color: #004B8D;
+	color: #fff;
+}
+
+.studentMarks .subName {
+	width: 15%;
+}
+
+.studentMarks .remarksTab {
+	width: 15%;
+}
+
+.studentMarks .subjects {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.cumulativeAveTab {
+	border: 2px solid #004B8D;
+	table-layout: fixed;
+	float: right;
+}
+
+.cumulativeAveTab th {
+	padding: 5px 30px;
+}
+
+.princeHeader {
+	width: 50%;
+	float: left;
+	text-align: right;
+	padding-right: 50px;
+	text-align: right;
+}
+
+.corresHeader {
+	text-align: left;
+	float: left;
+	width: 50%;
+	padding-left: 50px;
+}
+
+.subHeader {
+	display: inline-table;
+	width: 100%;
+}
+
+/* +++++++++++++++++Student_attendance+++++++++++++++ */
+.monthAttend, .cumulativePercen {
+	border: 2px solid #004B8D;
+}
+
+.cumulativePercen {
+	float: right;
+}
+
+.cumulativePercen th {
+	padding: 3px 40px;
+	min-width: 100px;
+}
+
+.monthAttend td, .monthAttend th {
+	width: 6%;
+	padding: 3px;
+	text-align: center;
+}
+
+.monthAttend th {
+	font-size: 13px;
+	background-color: #004B8D;
+	color: #fff;
+}
+
+.monthAttend .toShowNo {
+	width: 18%;
+	text-align: left;
+}
+
+/* +++++++++++++++ Progress_Repoer++++++++++++++++++++ */
+.progressReportTab select {
+	width: 150px;
+	font: 12px;
+	border: 1px solid #004B8D;
+	color: #000;
+}
+
+.progressReportTab tr td input[type=text] {
+	width: 50px;
+	font: 12px;
+	border: 1px solid #004B8D;
+	font-weight: normal;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+.progressReportTab, .totalMarksTab {
+	border: 2px solid #004B8D;
+	margin: auto;
+}
+
+.progressReportTab tr {
+	height: 28px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+}
+
+.progressReportTab tr:nth-child(odd) {
+	background-color: #ADD8E6;
+}
+
+.progressReportTab tr:nth-child(even) {
+	background-color: #D3D3D3;
+}
+
+.progressReportTab th {
+	padding: 0 30px;
+	color: #fff;
+	background-color: #004B8D;
+}
+
+.progressReportTab td {
+	padding: 0 20px;
+}
+
+.progressReportTab .left, .totalMarksTab .left {
+	padding: 0 20px;
+	text-align: right
+}
+
+.progressReportTab .middle, .totalMarksTab .middle {
+	text-align: left;
+	padding: 0 20px;
+}
+
+.progressReportTab th, .progressReportTab td, .totalMarksTab td,
+	.totalMarksTab th {
+	width: 260px;
+}
+
+.heddingLabel {
+	font-size: 18px;
+	margin-left: 180px;
+}
+
+.getAfterAdminNo, .adminNoDiv {
+	display: none;
+}
+
+/* +++++++++++++ certificates ++++++++++++++++++ */
+.viewFullLeft {
+	width: 38%;
+	padding: 2%;
+	float: left;
+}
+
+.viewFullRight {
+	width: 58%;
+	padding: 2%;
+	float: left;
+	border-left: 2px solid rgb(0, 71, 141);
+}
+
+.hedderText {
+	font-size: 16px;
+}
+
+
+.viewFullRight input[type=text], .viewFullRight select {
+	width: 200px;
+	height: 22px;
+	border-color: rgb(0, 71, 141);
+}
+
+.studyConduct, .study, .merit, .viewFullRight {
+	display: none;
+}
+
+/* +++++++++++++++++Add_teacher subject++++++++++++++ */
+.leftLabelAdd {
+	float: left;
+	text-align: right;
+	width: 40%;
+}
+
+
+/*++++++++++++++++++++ sCreate_Account +++++++++++++++++*/
+.createUserLeft {
+	float: left;
+	width: 35%;
+	text-align: right;
+}
+
+.createUserRight {
+	float: left;
+	width: 65%;
+	text-align: left;
+}
+
+.createAccountPage, .forgotPassPage {
+	width: 600px;
+	border: 2px solid #004B8D;
+	padding: 10px;
+}
+
+.createAccountPage input[type=text], .createAccountPage input[type=password],
+	.createAccountPage select, .forgotPassPage input[type=text],
+	.forgotPassPage input[type=password] {
+	height: 22px;
+	width: 210px;
+	font-size: 12px;
+	border: 1px solid #004B8D;
+	font-weight: normal
+}
+
+.headerCreatePage {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}

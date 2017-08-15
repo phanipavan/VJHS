@@ -1,0 +1,957 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	/* font-family: "Open Sans", sans-serif; */
+	font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+		sans-serif;
+	font-size: 13px;
+	line-height: 1.42857;
+	color: #808080;
+	background: #fff;
+	padding: 0px;
+	margin: 0px;
+	font-size: 13px;
+}
+
+/* * {
+	font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+		sans-serif;
+	font-size: 13px;
+} */
+.head700 {
+	/* font-weight: 700; */
+	color: #0083b4;
+	/* text-align: center; */
+	font-family: inherit;
+	/* font-size: 1.5em; */
+	width: 1200px;
+	margin: auto;
+	display: inline;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
+.mainHead {
+	font-size: 1.5em;
+	text-align: left;
+	width: 60%;
+	float: left;
+}
+
+.logInfo {
+	text-align: right;
+	width: 40%;
+	float: left;
+	font-size: 15px;
+}
+
+.lgnHead700 {
+	font-weight: 700;
+	background: #0083b4;
+	color: #fff;
+	text-align: center;
+	font-family: inherit;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.subHead {
+	font-weight: 700;
+	color: #0083b4;
+	text-align: center;
+	font-family: inherit;
+	font-size: 1.5em;
+}
+
+h1 {
+	margin: 2px;
+	font-size: 1.5em;
+}
+
+h4, h2, h3, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+.mainMenuStyle>.menuStyle>a>span {
+	margin: 2px 15px;
+}
+
+.mainMenuSubStyle {
+	width: 75px;
+	height: 75px;
+	float: left;
+	line-height: 75px;
+	text-align: center;
+	border-radius: 50%;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.mainMenuStyle {
+	background: #0083b4;
+	height: 90px;
+}
+
+.profileStyle {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.profileStyle:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.studentProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.studentProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.teacherProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.teacherProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.teacherProfile {
+	background: #0083b4;
+	border: 5pxsolid #fff;
+	color: #fff;
+}
+
+.teacherProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+	border: 5px solid #fff;
+}
+
+.scheduleProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.scheduleProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.examsProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.examsProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.smsProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.smsProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.libraryProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.libraryProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.vehiclesProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.vehiclesProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.accountsProfile {
+	background: #0083b4;
+	border: 5px solid #fff;
+	color: #fff;
+}
+
+.accountsProfile:hover {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.activeProfile {
+	background: #fff;
+	font-size: 16px;
+	border: 5px solid #fff;
+	color: #0083b4;
+}
+
+.menuStyle {
+	width: 1050px;
+	margin: auto;
+}
+
+.mainBody {
+	background: #fff;
+	display: inline-flex;
+	width: 100%;
+	margin: auto;
+}
+
+.mainBodyStyle {
+	width: 1200px;
+	background-image: url("../img/vjhs_trans_logo.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 30%;
+	margin: auto;
+	display: inline;
+	padding: 5px 0px;
+}
+
+.mainLeftBodyStyle {
+	width: 15%;
+	/* min-height: 500px; */
+	float: left;
+}
+
+.mainRightBodyStyle {
+	width: 84%;
+	float: right;
+	padding-top: 15px;
+	/* padding: 0px 0px 10px; */
+}
+
+.adminContactDet {
+	float: left;
+	width: 49%;
+	padding: 5px;
+}
+
+.perDetStyle {
+	float: right;
+	width: 48%;
+	padding: 5px;
+}
+
+/* .perDetStyle>.personlDetails>div {
+	padding: 7px 5px;
+} */
+.textareaStyle {
+	width: 96%;
+	height: 50px;
+	resize: none;
+	font: inherit;
+	font-size: inherit;
+	color: inherit;
+	border: 1px solid #808080;
+}
+
+/* fieldset>div, fieldset>div>div,  */
+.fulWidth {
+	width: 99%;
+	float: left;
+	padding: 3px;
+}
+
+a {
+	color: #0083b4;
+	text-decoration: none;
+}
+
+a:HOVER, a:FOCUS {
+	color: #23527c;
+}
+
+.minHeightDiv {
+	min-height: 10px;
+	width: 99%;
+}
+
+/* fieldset>div>label>input[type="text"], fieldset>div>label>input[type="file"],
+	fieldset>div>label>input[type="email"], fieldset>div>label>input[type="number"],
+	fieldset>div>label>input[type="date"], fieldset>div>label>input[type="tel"],
+	fieldset>div>label>textarea, fieldset>div>div>label>input[type="text"],
+	fieldset>div>div>label>input[type="file"], fieldset>div>div>label>input[type="date"],
+	fieldset>div>div>label>input[type="tel"], fieldset>div>div>label>textarea,
+	fieldset>div>div>label>input[type="number"], fieldset>div>div>label>input[type="email"] */
+.inputType {
+	/* padding: 1px 3px; */
+	color: #808080;
+	/* border: 1px solid #808080; */
+	font-size: 13px;
+	width: 96%;
+}
+
+.inputType40 {
+	/* padding: 1px 3px; */
+	color: #808080;
+	/* border: 1px solid #808080; */
+	font-size: 13px;
+	width: 40%;
+}
+
+/* fieldset>div>label>select, fieldset>div>div>label>select */
+.selectType {
+	/* padding: 1px 3px; */
+	color: #808080;
+	width: 100%;
+	/* border: 1px solid #808080; */
+	font-size: 13px;
+}
+
+.selectType42 {
+	/* 	padding: 1px 3px; */
+	color: #808080;
+	width: 42%;
+	font-size: 13px;
+	/* border: 1px solid #fff; */
+}
+
+.leftLabel {
+	width: 48%;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.rightLabel {
+	width: 49%;
+	float: left;
+	font-size: 12px;
+	text-align: left;
+}
+
+.rightLabelText2 {
+	width: 49%;
+	float: left;
+	font-size: 13px;
+	text-align: left;
+	font-weight: 600;
+}
+
+.leftLabelText {
+	width: 40%;
+	float: left;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.leftLabelText:AFTER, .leftLabel:AFTER, .leftLabelST:AFTER, .lgnLeftLbl:AFTER,
+	.leftLabelSTS:AFTER {
+	content: ":"
+}
+
+.rightLabelText {
+	width: 35%;
+	float: left;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.preSchoolDetStyle {
+	width: 99%;
+	float: left;
+	padding: 5px;
+}
+
+.formButtons {
+	width: 99%;
+	text-align: center;
+	height: 30px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+}
+
+.formButtonsLeft {
+	width: 99%;
+	text-align: left;
+	height: 30px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+}
+
+.btnStyle {
+	padding: 3px 20px;
+	background: #fff;
+	border: 1px solid #0083b4;
+	color: #0083b4;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.btnStyle:HOVER {
+	background: #0083b4;
+	color: #fff;
+}
+
+.footerStyle {
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	background: #0083b4;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul>li {
+	font-weight: bold;
+	padding: 5px 10px;
+	background: #fff;
+	color: #0083b4;
+	border-left: 4px solid #fff;
+}
+
+ul>li:HOVER, ul>li:FOCUS {
+	background-color: #f1f1f1;
+	font-weight: bolder;
+	border-left: 4px solid #0083b4;
+}
+
+.activeLeftPane {
+	background-color: #f1f1f1;
+	font-weight: bold;
+	border-left: 4px solid #0083b4;
+}
+
+.activeBottomPane {
+	background-color: #f1f1f1;
+	font-weight: bold;
+	border-bottom: 4px solid #0083b4;
+}
+
+.leftPaneHeadding {
+	font-size: 17px;
+	color: #0083b4;
+	padding-top: 15px;
+	font-weight: 700;
+}
+
+fieldset {
+	border: 1px solid #0083b4;
+	margin: 0px 2px;
+	padding: 5px;
+}
+
+legend {
+	color: #0083b4;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.requiredLabel {
+	/* color: red; */
+	
+}
+
+.adminRightLabel {
+	width: 24%;
+	float: left;
+	border: 1px solid #808080;
+	padding: 2px;
+	vertical-align: middle;
+	text-align: center;
+	color: #707070;
+	display: flex;
+}
+
+.adminLeftLabel {
+	width: 73%;
+	float: left;
+}
+
+.thumb-image {
+	display: flex;
+	width: 100%;
+}
+
+.ttLabel {
+	width: 100px;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+.thLabel {
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+input, select, textarea {
+	border: 1px solid #808080;
+	font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+		sans-serif;
+	color: #808080;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
+input:FOCUS, select:FOCUS, textarea:FOCUS {
+	border: 1px solid #0083b4;
+}
+
+/* +++++++++++++++++Student_attendance+++++++++++++++ */
+.monthAttend, .cumulativePercen {
+	border: 2px solid #0083b4;
+	background-color: #fff;
+}
+
+.teachAttenTab {
+	border: 2px solid #0083b4;
+	border-collapse: collapse;
+	background-color: #fff;
+	width: 50%;
+	margin: auto;
+}
+
+.teachTimTbl {
+	border: 2px solid #0083b4;
+	border-collapse: collapse;
+	background-color: #fff;
+	margin: auto;
+}
+
+.cumulativePercen {
+	float: right;
+}
+
+.cumulativePercen th {
+	padding: 3px 40px;
+	min-width: 100px;
+}
+
+.monthAttend td, .monthAttend th {
+	width: 6%;
+	padding: 3px;
+	text-align: center;
+}
+
+.monthAttend th, .teachAttenTab th, .teachTimTbl th {
+	font-size: 13px;
+	background-color: #0083b4;
+	color: #fff;
+}
+
+.teachAttenTab td, .teachAttenTab th, .teachTimTbl td, .teachTimTbl th {
+	text-align: center;
+	padding: 3px 5px;
+}
+
+.monthAttend .toShowNo {
+	width: 18%;
+	text-align: left;
+}
+
+.attenInput {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: #fff;
+	text-align: right;
+}
+
+.leftLabelST {
+	font-size: 14px;
+	font-weight: bold;
+	width: 45%;
+	text-align: right;
+	float: left;
+}
+
+.leftLabelSTS {
+	font-size: 14px;
+	width: 45%;
+	text-align: right;
+	float: left;
+	font-weight: normal;
+}
+
+.rightLabelST {
+	font-size: 14px;
+	width: 53%;
+	text-align: left;
+	float: left;
+	padding-left: 5px;
+}
+
+.rightLabelST>select {
+	width: 41%;
+}
+
+.rightLabelST>input {
+	width: 40%;
+}
+
+.rightLabelST>.exTypeYear {
+	width: 65px;
+	margin-left: 10px;
+}
+
+.addSubjectPane, .updateSubjectPane {
+	display: none;
+}
+
+.error {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.noHide {
+	display: none;
+}
+
+#scheduleForm .tabWidth {
+	width: 60%;
+}
+
+.width33 {
+	width: 33%;
+	float: left;
+}
+
+.subsPane {
+	padding: 3px 20px;
+	float: left
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.fontSize14 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.desc {
+	font-size: large;
+	line-height: 30px;
+	padding-top: 15px;
+}
+
+.descStyle {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: Monotype Corsiva;
+	padding: 0px 5px;
+}
+
+.selectStyleAdd select, .reportTab select {
+	/*for firefox*/
+	-moz-appearance: none;
+	/*for chrome*/
+	-webkit-appearance: none;
+	padding: 1px 2px;
+	border-radius: 0;
+}
+
+/*for IE10*/
+.selectStyleAdd select::-ms-expand, .reportTab select {
+	display: none;
+}
+
+.clsList {
+	width: 30px;
+	border: #fff;
+}
+
+.subList {
+	width: 65px;
+	padding-left: 3px;
+	border-top: #fff;
+	border-bottom: #fff;
+	border-right: #fff;
+	border-left: 1px solid #808080;
+}
+
+.subCList {
+	width: 100px;
+	padding-left: 3px;
+	border: 1px solid #fff;
+}
+
+.borderF {
+	border-top: #fff;
+	border-bottom: #fff;
+	border-right: #fff;
+	border-left: #808080;
+}
+
+.loginInput {
+	width: 200px;
+	padding: 3px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	border: 1px solid #0083b4;
+}
+
+.loginSelect {
+	width: 222px;
+	padding: 3px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	border: 1px solid #0083b4;
+}
+
+.loginAnchr {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.lgnRightBin {
+	float: right;
+	width: 25%;
+	padding-left: 10px;
+}
+
+.lgnLeftBin {
+	float: left;
+	width: 73%;
+}
+
+.lgnLeftLbl {
+	float: left;
+	width: 42%;
+	padding: 3px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+	font-size: 14px;
+}
+
+.lgnRightLbl {
+	float: left;
+	width: 55%;
+	padding-left: 20px;
+}
+
+.sucMes {
+	padding: 10px 0px;
+	background: #0D7;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	display: inherit;
+}
+
+.errMes {
+	padding: 10px 0px;
+	background: #F63;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	display: inherit;
+}
+
+#width40 {
+	width: 40%;
+}
+
+.width60 {
+	width: 60%;
+	float: left;
+	/* border: 1px solid #0083b4; */
+}
+
+.width37 {
+	width: 37%;
+	float: left;
+	/* border: 1px solid #0083b4; */
+}
+
+.reportHeadding {
+	background: #0083b4;
+	color: #fff;
+	padding: 3px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.fulWidth100 {
+	width: 100%;
+	float: left;
+}
+
+.marginLR10 {
+	margin: 0 10px 0 10px;
+}
+
+.reportTab, .markReTab {
+	width: 100%;
+	border-spacing: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.markReTab th {
+	background: #99ccff;
+	color: #fff;
+}
+
+.reportTab th {
+	background: #99ccff;
+	color: #fff;
+	padding: 1px 10px;
+}
+
+.reportTab td {
+	padding: 1px 25px;
+}
+
+.reportTab td input {
+	padding: 0 10px;
+	margin: 0;
+	width: 50px;
+	border-radius: 0px;
+	text-align: center;
+}
+
+.reportTab td select {
+	padding: 0 10px;
+	margin: 0;
+	width: 120px;
+	border-radius: 0px;
+}
+
+.algnCentr {
+	text-align: center;
+}
+
+.fontBold {
+	font-weight: bold;
+}
+
+.marginT17 {
+	margin-top: 17px;
+}
+
+.border {
+	border: 1px solid #0083b4;
+}
+
+.marginAuto {
+	margin: auto;
+}
+
+.width58 {
+	width: 58%;
+	float: left;
+}
+
+.width40 {
+	width: 40%;
+	float: left;
+}
+
+.marginR2Pr {
+	margin-right: 2%;
+}
+
+.width49 {
+	width: 49%;
+	float: left;
+}
+
+.cgpDiv {
+	padding: 3px 10px;
+	font-weight: bold;
+	font-size: 14px;
+	float: right;
+}
+
+.ale-succ {
+	text-align: center;
+	background-color: #dff0d8;
+	border-color: #d0e9c6;
+	color: #3c763d;
+	padding: .50rem 1.25rem;
+	/* margin-bottom: 1rem; */
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+		sans-serif;
+	font-size: 15px;
+}
+
+.ale-err {
+	text-align: center;
+	background-color: #f2dede;
+	border-color: #ebcccc;
+	color: #a94442;
+	padding: .50rem 1.25rem;
+	/* 	margin-bottom: 1rem; */
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial,
+		sans-serif;
+	font-size: 15px;
+}
