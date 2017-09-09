@@ -31,6 +31,7 @@ public class TeacherOperImp implements TeacherOperations {
 	public boolean addTeacher(Teacher teacher) {
 		Connection con = null;
 		PreparedStatement pst = null;
+		//count var
 		int count = 0;
 		try {
 			con = dbConnection.getConnection();
