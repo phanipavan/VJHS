@@ -33,6 +33,7 @@ public class ClassStrengthOperImp implements ClassStrengthOperations {
 	public boolean addClassStrength(Class_Strength classStrength) {
 		Connection con = null;
 		PreparedStatement pst = null;
+		//test commit
 		int count = 0;
 		try {
 			con = dbConnection.getConnection();
